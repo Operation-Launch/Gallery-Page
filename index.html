@@ -1,0 +1,137 @@
+<!doctype html>
+
+<!--
+
+
+After reading chapters 5, 15, 16 and watching the videos in the Required Reading and Videos folder, create a single HTML/CSS Photo Gallery Page. Your photo gallery page should have the following specifics, layout, and functionality:
+
+1. index.html, style.css, and image folder for your images.
+
+	Completed
+
+2. An H1 tag at the top of the page for the header/title of the photo gallery
+
+	Completed
+
+3. Select 9 photos for your photo gallery that are larger than 1000px wide.
+
+	Completed
+
+4. Optimize all of your images in Photoshop so that they have a file size around 500k
+
+	Completed
+
+5. Use a DIV container to hold your photo gallery and center in the browser window.
+	
+	Completed
+
+6. Display a thumbnail version of your images in 3 columns and 3 rows using CSS floats and relative positioning
+
+	Completed
+
+7. Create links for each image so that it opens the full size version of the photo into a new window by using the targe="_blank" attribute of the anchor tag.
+
+	Completed
+
+8. Your photo gallery should utilize HTML/CSS positioning and optimized images for the thumbnails and the full-size images.  Your final photo gallery page should not only have a good HTML structure but also have a clean design. 
+
+	Completed
+
+
+-->
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>Photo Gallery</title>
+		
+		<!-- Normailze CSS / Reset -->
+		<link href="css/normalize.css" rel="stylesheet" type="text/css">
+		
+		<!-- Page CSS Styles -->
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+	</head>
+
+	<body class="wrapper clearfix">
+		<header>
+			<h1>World Expereinces Photo Gallery</h1>
+		</header>
+		
+		<main>
+			<div class="column_1">
+				
+				<div class="thumbnail">
+					<img src="images/1493125_1497127553902104_8735997437524818291_n.jpg" alt="Daytona Beach Florida" class="img" />
+					<figcaption>
+						<h2><a href="images/1493125_1497127553902104_8735997437524818291_n.jpg" target="_blank">Daytona Beach, Florida</a></h2>
+					</figcaption>
+				</div>
+				
+				<div class="thumbnail">
+					<img src="images/12191480_1660058167609041_8179571891943421468_n.jpg" alt="Ft. Polk " class="img" />
+					<figcaption>
+						<h2><a href="images/12191480_1660058167609041_8179571891943421468_n.jpg" target="_blank">Fort Polk, Louisiana</a></h2>
+					</figcaption>
+				</div>
+				
+				<div class="thumbnail">
+					<img src="images/hqdefault.jpg" alt="Patrol through the kalahari desert" class="img" />
+					<figcaption>
+						<h2><a href="images/hqdefault.jpg" target="_blank">Kalahari Desert, Africa</a></h2>
+					</figcaption>
+				</div>
+				
+			</div>
+			
+			<div class="column_2">
+				
+				<div class="thumbnail">
+					<img src="images/platoon.jpg" alt="Patrol trhough the mountains of djbouti" class="img" />
+					<figcaption>
+						<h2><a href="images/platoon.jpg" target="_blank">Djbouti, Africa</a></h2>
+					</figcaption>
+				</div>
+				
+				<div class="thumbnail">
+					<img src="images/13124725_1728885397392984_3215347866793857276_n.jpg" alt="On top of franklin mountains state park" class="img" />
+					<figcaption>
+						<h2><a href="images/13124725_1728885397392984_3215347866793857276_n.jpg" target="_blank">Franklin Mountains State Park, El Paso, TX</a></h2>
+					</figcaption>
+				</div>
+				
+				<div class="thumbnail">
+					<img src="images/orlando.jpg" alt="Joshua lived in Oralndo Florida for 4 years" class="img" />
+					<figcaption>
+						<h2><a href="images/orlando.jpg" target="_blank">Oralndo, Florida</a></h2>
+					</figcaption>
+				</div>
+				
+			</div>
+			
+			<div class="column_3">
+				
+				<div class="thumbnail">
+					<img src="images/guatemala.jpg" alt="Guatemla City" class="img" />
+					<figcaption>
+						<h2><a href="images/guatemala.jpg" target="_blank">Guatemala City</a></h2>
+					</figcaption>
+				</div>
+				<div class="thumbnail">
+					<img src="images/blue-spring.jpg" alt="Blue springs state park" class="img" />
+					<figcaption>
+						<h2><a href="images/blue-spring.jpg" target="_blank">Blue Springs State Park</a></h2>
+					</figcaption>
+				</div>
+				<div class="thumbnail">
+					<img src="images/tulsa.jpg" alt="City of Tulsa" class="img" />
+					<figcaption>
+						<h2><a href="images/tulsa.jpg">City of Tulsa, Oklahoma</a></h2>
+					</figcaption>
+				</div>
+				
+			</div>
+		</main>
+	</body>
+</html>
